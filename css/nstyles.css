@@ -1,0 +1,31 @@
+.buttonhead {
+    position: relative;
+    display: inline-block;
+    background: none repeat scroll 0% 0% #0073E5;
+    color: #FFF;
+    text-align: center;
+    border-radius: 0.5em;
+    text-decoration: none;
+    padding: 0.65em 3em;
+    border: 0px none;
+    cursor: pointer;
+    outline: 0px none;
+    font-weight: 300;
+    transition: background-color 0.35s ease-in-out 0s, color 0.35s ease-in-out 0s, border-bottom-color 0.35s ease-in-out 0s;
+    display: inline-block;
+border-radius: 100%;
+width: 4.5em;
+height: 4.5em;
+line-height: 4.5em;
+text-align: center;
+font-size: 1.25em;
+padding: 0px;
+}
+.buttonhead:hover {
+    color: #060505;
+    background: none repeat scroll 0% 0% #FFF;
+}
+.clear
+{
+    clear: both;
+}

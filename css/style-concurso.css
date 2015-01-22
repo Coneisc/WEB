@@ -1,0 +1,90 @@
+.menucitoWrapper{
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform:uppercase;
+    letter-spacing: normal;
+    line-height: 1.45em;
+    position:relative;
+    margin:20px auto;
+    height:542px;
+    width:794px;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+ul.menucito{
+    list-style:none;
+    width:797px;  /**  797**/ 
+}
+ul.menucito > li{
+    float:left;
+    width:265px;
+    height:542px;
+    border-right:1px solid #777;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+ul.menucito > li.last{
+    border:none;
+}
+.bg1{
+    background-image: url(../images/1.jpg);
+}
+.bg2{
+    background-image: url(../images/2.jpg);
+}
+.bg3{
+    background-image: url(../images/3.jpg);
+}
+ul.menucito > li > a{
+    float:left;
+    width:265px;
+    height:50px;
+    margin-top:450px;
+    text-align:center;
+    line-height:50px;
+    color:#ddd;
+    background-color:#333;
+    letter-spacing:1px;
+    cursor:pointer;
+    text-decoration:none;
+    text-shadow:0px 0px 1px #fff;
+}
+ul.menucito > li ul{
+    list-style:none;
+    float:left;
+    margin-top:-180px;
+    width:100%;
+    height:110px;
+    padding-top:20px;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+ul.menucito > li ul li{
+    display:none;
+}
+ul.menucito > li ul.sub1{
+    background-image:url(../images/bg1sub.png);
+}
+ul.menucito > li ul.sub2{
+    background-image:url(../images/bg2sub.png);
+}
+ul.menucito > li ul.sub3{
+    background-image:url(../images/bg3sub.png);
+}
+ul.menucito > li ul li a{
+    color:#fff;
+    text-decoration:none;
+    line-height:30px;
+    margin-left:20px;
+    text-shadow:1px 1px 1px #444;
+    font-size:11px;
+}
+ul.menucito > li ul.sub1 li{
+    display:block;
+}
+ul.menucito > li ul li a:hover{
+    border-bottom:1px dotted #fff;
+}
